@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HolidayYATRA</title>
+    <link rel="icon" href="img/logo.jpg">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/templatemo-style.css" rel="stylesheet">
+</head>
+
+<body class="tm-gray-bg">
+
+    <div class="tm-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+                    <a href="#" class="tm-site-name">HolidayYATRA</a>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-9">
+                    <div class="mobile-menu-icon">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <nav class="tm-nav">
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="tours.html">Our Tours</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <!-- Nav tabs -->
+            <div class="tm-home-box-1">
+                <ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
+                    <li role="presentation" class="active">
+                        <a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
+                        <div class="tm-search-box effect2">
+                            <form action="#" method="post" class="hotel-search-form">
+                                <div class="tm-form-inner">
+                                    <div class="form-group">
+                                        <select class="form-control">
+							            	 	<option value="">-- Select Hotel -- </option>
+							            	 	<option value="Taj">Taj</option>
+												<option value="Oberoy">Oberoy</option>
+												<option value="Heaven">Heaven</option>
+												<option value="Rock">Rock</option>
+											</select>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker1'>
+                                            <input type='text' class="form-control" placeholder="Check-in Date" />
+                                            <span class="input-group-addon">
+							                        <span class="fa fa-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker2'>
+                                            <input type='text' class="form-control" placeholder="Check-out Date" />
+                                            <span class="input-group-addon">
+							                        <span class="fa fa-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group margin-bottom-0">
+                                        <select class="form-control">
+							            	 	<option value="">-- Guests -- </option>
+							            	 	<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5p">5+</option>
+											</select>
+                                    </div>
+                                </div>
+                                <div class="form-group tm-yellow-gradient-bg text-center">
+                                    <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
+                        <div class="tm-search-box effect2">
+                            <form action="#" method="post" class="hotel-search-form">
+                                <div class="tm-form-inner">
+                                    <div class="form-group">
+                                        <select class="form-control">
+							            	 	<option value="">-- Select Model -- </option>
+							            	 	<option value="BMW">BMW</option>
+												<option value="Mercedes">Mercedes-Benz</option>
+												<option value="Audi">Audi</option>
+												<option value="Toyota">Toyota</option>
+												<option value="Honda">Honda</option>
+											</select>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class='input-group date-time' id='datetimepicker3'>
+                                            <input type='text' class="form-control" placeholder="Pickup Date" />
+                                            <span class="input-group-addon">
+							                        <span class="fa fa-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class='input-group date-time' id='datetimepicker4'>
+                                            <input type='text' class="form-control" placeholder="Return Date" />
+                                            <span class="input-group-addon">
+							                        <span class="fa fa-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control">
+							            	 	<option value="">-- Options -- </option>
+							            	 	<option value="">Child Seat</option>
+												<option value="">GPS Navigator</option>
+												<option value="">Insurance</option>
+											</select>
+                                    </div>
+                                </div>
+                                <div class="form-group tm-yellow-gradient-bg text-center">
+                                    <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
+                <img src="img/index-01.jpg" alt="image" class="img-responsive">
+                <a href="#">
+                    <div class="tm-green-gradient-bg tm-city-price-container">
+                        <span>Mumbai</span>
+                        <span>₹ 40,000</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
+                <img src="img/index-02.jpg" alt="image" class="img-responsive">
+                <a href="#">
+                    <div class="tm-red-gradient-bg tm-city-price-container">
+                        <span>Delhi</span>
+                        <span>₹ 35,000</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section-margin-top">
+            <div class="row">
+                <div class="tm-section-header">
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <hr>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h2 class="tm-section-title">Four Sides of India</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                    <div class="card">
+                        <img src="img/index-03.jpg" class="card-img-top img1" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">North India</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Travel </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                    <div class="card">
+                        <img src="img/index-04.jpg" class="card-img-top img1" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">South India</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Travel</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                    <div class="card">
+                        <img src="img/index-05.jpg" class="card-img-top img1" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">East India</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Travel</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                    <div class="card">
+                        <img src="img/index-06.jpg" class="card-img-top img1" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">West India</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Travel</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- white bg -->
+
+    <div class="container">
+        <div class="tm-section-header section-margin-top">
+            <div class="col-lg-4 col-md-3 col-sm-3">
+                <hr>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <h2 class="tm-section-title">Popular Packages</h2>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                <div class="card">
+                    <img src="img/index-07.jpg" class="card-img-top img1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">North India</h5>
+                        <p class="card-text">Delhi, Jaipur, Lucknow, Shimla.</p>
+                        <a href="#" class="btn btn-primary">Travel To COOL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                <div class="card">
+                    <img src="img/index-08.jpg" class="card-img-top img1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">South India</h5>
+                        <p class="card-text">Chennai, Hyderabad, Banglore, Cochin.</p>
+                        <a href="#" class="btn btn-primary">Travel To CULTUR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                <div class="card">
+                    <img src="img/index-09.jpg" class="card-img-top img1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">East India</h5>
+                        <p class="card-text">Patna, Kolkata, Shilong.</p>
+                        <a href="#" class="btn btn-primary">Travel To COFFEE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+                <div class="card">
+                    <img src="img/index-10.jpg" class="card-img-top img1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">West India</h5>
+                        <p class="card-text">Mumbai, Goa, Pune, Khajuraho.</p>
+                        <a href="#" class="btn btn-primary">Travel To CRAFT world</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <br><br>
+    <footer class="tm-black-bg">
+        <div class="container">
+            <div class="row">
+                <p class="tm-copyright-text">Copyright &copy; 2084 HolidayYATRA</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
